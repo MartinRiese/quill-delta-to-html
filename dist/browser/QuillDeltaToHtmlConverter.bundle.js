@@ -1129,7 +1129,7 @@ function encodeMapping(str, mapping) {
     return str.replace(new RegExp(mapping[0], 'g'), mapping[1]);
 }
 function decodeMapping(str, mapping) {
-    return str.replace(new RegExp(mapping[1], 'g'), mapping[0].replace('\\', ''));
+    return str.replace(new RegExp(mapping[1], 'g'), mapping[0].replace(/\\/g, ''));
 }
 
 },{}],10:[function(require,module,exports){
