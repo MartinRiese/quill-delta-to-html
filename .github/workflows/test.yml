@@ -25,8 +25,8 @@ jobs:
     - name: Install Dependencies
       run: npm install      # npm ci is recommended for CI, it's faster and more reliable than npm install
 
-#    - name: Install Dev Dependencies
-#      run: npm ci --only=development
+    - name: Install Dev Dependencies
+      run: npm install -D
 
     - name: Run Tests
       run: npm test    # this will run the "test" script in your package.json
