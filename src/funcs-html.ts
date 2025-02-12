@@ -78,7 +78,7 @@ function encodeMapping(str: string, mapping: string[]) {
   return str.replace(new RegExp(mapping[0], 'g'), mapping[1]);
 }
 function decodeMapping(str: string, mapping: string[]) {
-  return str.replace(new RegExp(mapping[1], 'g'), mapping[0].replace('\\', ''));
+  return str.replace(new RegExp(mapping[1], 'g'), mapping[0].replace(/\\/g, ''));
 }
 export {
   makeStartTag,
