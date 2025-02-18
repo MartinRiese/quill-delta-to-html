@@ -1,6 +1,6 @@
 {
-  "name": "quill-delta-to-html",
-  "version": "0.12.1",
+  "name": "quill-delta-to-html-upate",
+  "version": "0.13.0",
   "description": "Converts Quill's delta ops to HTML",
   "main": "./dist/commonjs/main.js",
   "types": "./dist/commonjs/main.d.ts",
@@ -31,19 +31,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nozer/quill-delta-to-html.git"
+    "url": "git+ssh://git@github.com/MartinRiese/quill-delta-to-html.git"
   },
   "keywords": [
     "quill",
     "delta",
     "html"
   ],
-  "author": "Nihat Özer <nihatforweb@gmail.com>",
-  "license": "ISC",
+  "author": "Martin Riese",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nozer/quill-delta-to-html/issues"
+    "url": "https://github.com/MartinRiese/quill-delta-to-html/issues"
   },
-  "homepage": "https://github.com/nozer/quill-delta-to-html#readme",
+  "homepage": "https://github.com/MartinRiese/quill-delta-to-html#readme",
   "nyc": {
     "include": [
       "src/**/*.ts"
